@@ -12,7 +12,7 @@ pip install Django
 python -m django --version
 
 - Create Django project:
-django-admin startproject congfig .
+django-admin startproject config .
 
 - Create new Django aplication:
 python manage.py startapp app_name
