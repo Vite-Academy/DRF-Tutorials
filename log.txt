@@ -1,12 +1,13 @@
 - Create venv command:
-python -m venv env
+python -m venv venv
 
 - Activate venv:
-Linux: source env/bin/activate
-Win: source env/Scripts/activate
+Linux: source venv/bin/activate
+Mac: source venv/bin/activate
+Win: source venv/Scripts/activate
 
 - Install Django:
-pip install Django
+pip install Django==4.2.3
 
 - Check Django version:
 python -m django --version
@@ -38,3 +39,7 @@ python manage.py createsuperuser
 - Create model:
 python manage.py makemigrations my_app
 
+
+Install all models:
+- Django: pip install Django
+- django-cleanup: pip install django-cleanup
